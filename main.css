@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+.navbar-wrapper {
+    background-color: #404F68;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.name {
+    color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name .icon {
+    margin-right: 10px
+}
+
+.main-links {
+    background-color: #1F2F47;
+    display: flex;
+    color: white;
+
+}
+
+.link1 {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.link1:hover {
+    background-color: white;
+    color: black;
+}
+
+.link2 {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.link2:hover {
+    background-color: white;
+    color: black;
+}
+
+.space-saver {
+    background-color: #1F2F47;
+    width: 100%;
+    flex-shrink: inherit;
+}
+
+.final-link {
+    background-color: #1F2F47;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+
+.link3:hover {
+    background-color: white;
+    color: black;
+}
+
+
